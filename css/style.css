@@ -14,7 +14,7 @@ body {
 /* COMPONENTS */
 
 .container {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 10px 0;
 }
@@ -29,20 +29,11 @@ body {
   clear: both
 }
 
-.debug {
+/* .debug {
   background-color: rgba(0, 255, 255, 0.5);
-}
+} */
 
-.debug-1 {
-  background-color: rgba(37, 24, 124, 0.5);
-}
-
-.debug-2 {
-  background-color: rgba(215, 80, 231, 0.5);
-}
-
-
-/* SECTION */
+/* MAIN */
 
 .container > h2 {
   color: #E53C70;
@@ -64,6 +55,7 @@ body {
   color: #ffffff;
   margin: 0 15px 25px 15px;
   float: left;
+  box-shadow: 0px 0px 10px #888888;
 }
 
 .card-box .card img {
@@ -73,7 +65,7 @@ body {
 
 .card-box .card .card-text {
   float:left;
-  padding: 10px;
+  padding: 15px 15px;
 }
 
  .card-box .card a {
