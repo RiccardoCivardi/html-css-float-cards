@@ -23,6 +23,12 @@ body {
 
 /* UTILITY */
 
+.clearfix::after {
+  content:'';
+  display: table;
+  clear: both
+}
+
 .debug {
   background-color: rgba(0, 255, 255, 0.5);
 }
@@ -51,3 +57,28 @@ body {
 .container > h2, .container > p {
   text-align: center;
 }
+
+.card-box .card {
+  width: calc(100% / 3 - 30px);
+  background-color: #0F0E17;
+  color: #ffffff;
+  margin: 0 15px 25px 15px;
+  float: left;
+}
+
+.card-box .card img {
+  height: 100px;
+  float:left;
+}
+
+.card-box .card .card-text {
+  float:left;
+  padding: 10px;
+}
+
+ .card-box .card a {
+  color: #62C5E1;
+  text-decoration: none;
+ }
+
+
